@@ -1,0 +1,19 @@
+
+#
+# setup,  windows
+#
+
+pip install sqlalchemy
+pip install flask-sqlalchemy PyMySQL
+
+#
+# mySQL
+#
+CREATE DATABASE flask_db DEFAULT CHARACTER SET utf8;
+
+grant all on flask_db.* to 'db_user'@'localhost' identified by 'password';
+
+
+#
+# model
+/models : model ファイルを置く。
