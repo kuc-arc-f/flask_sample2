@@ -16,4 +16,5 @@ grant all on flask_db.* to 'db_user'@'localhost' identified by 'password';
 
 #
 # model
-/models : model ファイルを置く。
+/models : model ファイルを置く
+
